@@ -1,0 +1,612 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		65F5E43E2CDCB7B100D53B34 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65F5E43D2CDCB7B100D53B34 /* AppDelegate.swift */; };
+		65F5E4402CDCB7B100D53B34 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65F5E43F2CDCB7B100D53B34 /* SceneDelegate.swift */; };
+		65F5E4472CDCB7B300D53B34 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65F5E4462CDCB7B300D53B34 /* Assets.xcassets */; };
+		65F5E44A2CDCB7B300D53B34 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 65F5E4492CDCB7B300D53B34 /* Base */; };
+		65F5E4552CDCB7B300D53B34 /* CryptoViperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65F5E4542CDCB7B300D53B34 /* CryptoViperTests.swift */; };
+		65F5E45F2CDCB7B300D53B34 /* CryptoViperUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65F5E45E2CDCB7B300D53B34 /* CryptoViperUITests.swift */; };
+		65F5E4612CDCB7B300D53B34 /* CryptoViperUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65F5E4602CDCB7B300D53B34 /* CryptoViperUITestsLaunchTests.swift */; };
+		65F5E46E2CDCB9B100D53B34 /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65F5E46D2CDCB9B100D53B34 /* View.swift */; };
+		65F5E4702CDCB9C400D53B34 /* Interactor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65F5E46F2CDCB9C400D53B34 /* Interactor.swift */; };
+		65F5E4722CDCB9D800D53B34 /* Presenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65F5E4712CDCB9D800D53B34 /* Presenter.swift */; };
+		65F5E4742CDCB9E900D53B34 /* Entity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65F5E4732CDCB9E900D53B34 /* Entity.swift */; };
+		65F5E4762CDCB9F900D53B34 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65F5E4752CDCB9F900D53B34 /* Router.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		65F5E4512CDCB7B300D53B34 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 65F5E4322CDCB7B100D53B34 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 65F5E4392CDCB7B100D53B34;
+			remoteInfo = CryptoViper;
+		};
+		65F5E45B2CDCB7B300D53B34 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 65F5E4322CDCB7B100D53B34 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 65F5E4392CDCB7B100D53B34;
+			remoteInfo = CryptoViper;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		65F5E43A2CDCB7B100D53B34 /* CryptoViper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CryptoViper.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		65F5E43D2CDCB7B100D53B34 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		65F5E43F2CDCB7B100D53B34 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		65F5E4462CDCB7B300D53B34 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		65F5E4492CDCB7B300D53B34 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		65F5E44B2CDCB7B300D53B34 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		65F5E4502CDCB7B300D53B34 /* CryptoViperTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CryptoViperTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		65F5E4542CDCB7B300D53B34 /* CryptoViperTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoViperTests.swift; sourceTree = "<group>"; };
+		65F5E45A2CDCB7B300D53B34 /* CryptoViperUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CryptoViperUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		65F5E45E2CDCB7B300D53B34 /* CryptoViperUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoViperUITests.swift; sourceTree = "<group>"; };
+		65F5E4602CDCB7B300D53B34 /* CryptoViperUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoViperUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		65F5E46D2CDCB9B100D53B34 /* View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View.swift; sourceTree = "<group>"; };
+		65F5E46F2CDCB9C400D53B34 /* Interactor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Interactor.swift; sourceTree = "<group>"; };
+		65F5E4712CDCB9D800D53B34 /* Presenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Presenter.swift; sourceTree = "<group>"; };
+		65F5E4732CDCB9E900D53B34 /* Entity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Entity.swift; sourceTree = "<group>"; };
+		65F5E4752CDCB9F900D53B34 /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		65F5E4372CDCB7B100D53B34 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65F5E44D2CDCB7B300D53B34 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65F5E4572CDCB7B300D53B34 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		65F5E4312CDCB7B100D53B34 = {
+			isa = PBXGroup;
+			children = (
+				65F5E43C2CDCB7B100D53B34 /* CryptoViper */,
+				65F5E4532CDCB7B300D53B34 /* CryptoViperTests */,
+				65F5E45D2CDCB7B300D53B34 /* CryptoViperUITests */,
+				65F5E43B2CDCB7B100D53B34 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		65F5E43B2CDCB7B100D53B34 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				65F5E43A2CDCB7B100D53B34 /* CryptoViper.app */,
+				65F5E4502CDCB7B300D53B34 /* CryptoViperTests.xctest */,
+				65F5E45A2CDCB7B300D53B34 /* CryptoViperUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		65F5E43C2CDCB7B100D53B34 /* CryptoViper */ = {
+			isa = PBXGroup;
+			children = (
+				65F5E43D2CDCB7B100D53B34 /* AppDelegate.swift */,
+				65F5E43F2CDCB7B100D53B34 /* SceneDelegate.swift */,
+				65F5E4462CDCB7B300D53B34 /* Assets.xcassets */,
+				65F5E4482CDCB7B300D53B34 /* LaunchScreen.storyboard */,
+				65F5E44B2CDCB7B300D53B34 /* Info.plist */,
+				65F5E46D2CDCB9B100D53B34 /* View.swift */,
+				65F5E46F2CDCB9C400D53B34 /* Interactor.swift */,
+				65F5E4712CDCB9D800D53B34 /* Presenter.swift */,
+				65F5E4732CDCB9E900D53B34 /* Entity.swift */,
+				65F5E4752CDCB9F900D53B34 /* Router.swift */,
+			);
+			path = CryptoViper;
+			sourceTree = "<group>";
+		};
+		65F5E4532CDCB7B300D53B34 /* CryptoViperTests */ = {
+			isa = PBXGroup;
+			children = (
+				65F5E4542CDCB7B300D53B34 /* CryptoViperTests.swift */,
+			);
+			path = CryptoViperTests;
+			sourceTree = "<group>";
+		};
+		65F5E45D2CDCB7B300D53B34 /* CryptoViperUITests */ = {
+			isa = PBXGroup;
+			children = (
+				65F5E45E2CDCB7B300D53B34 /* CryptoViperUITests.swift */,
+				65F5E4602CDCB7B300D53B34 /* CryptoViperUITestsLaunchTests.swift */,
+			);
+			path = CryptoViperUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		65F5E4392CDCB7B100D53B34 /* CryptoViper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 65F5E4642CDCB7B300D53B34 /* Build configuration list for PBXNativeTarget "CryptoViper" */;
+			buildPhases = (
+				65F5E4362CDCB7B100D53B34 /* Sources */,
+				65F5E4372CDCB7B100D53B34 /* Frameworks */,
+				65F5E4382CDCB7B100D53B34 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CryptoViper;
+			productName = CryptoViper;
+			productReference = 65F5E43A2CDCB7B100D53B34 /* CryptoViper.app */;
+			productType = "com.apple.product-type.application";
+		};
+		65F5E44F2CDCB7B300D53B34 /* CryptoViperTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 65F5E4672CDCB7B300D53B34 /* Build configuration list for PBXNativeTarget "CryptoViperTests" */;
+			buildPhases = (
+				65F5E44C2CDCB7B300D53B34 /* Sources */,
+				65F5E44D2CDCB7B300D53B34 /* Frameworks */,
+				65F5E44E2CDCB7B300D53B34 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				65F5E4522CDCB7B300D53B34 /* PBXTargetDependency */,
+			);
+			name = CryptoViperTests;
+			productName = CryptoViperTests;
+			productReference = 65F5E4502CDCB7B300D53B34 /* CryptoViperTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		65F5E4592CDCB7B300D53B34 /* CryptoViperUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 65F5E46A2CDCB7B300D53B34 /* Build configuration list for PBXNativeTarget "CryptoViperUITests" */;
+			buildPhases = (
+				65F5E4562CDCB7B300D53B34 /* Sources */,
+				65F5E4572CDCB7B300D53B34 /* Frameworks */,
+				65F5E4582CDCB7B300D53B34 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				65F5E45C2CDCB7B300D53B34 /* PBXTargetDependency */,
+			);
+			name = CryptoViperUITests;
+			productName = CryptoViperUITests;
+			productReference = 65F5E45A2CDCB7B300D53B34 /* CryptoViperUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		65F5E4322CDCB7B100D53B34 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					65F5E4392CDCB7B100D53B34 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					65F5E44F2CDCB7B300D53B34 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 65F5E4392CDCB7B100D53B34;
+					};
+					65F5E4592CDCB7B300D53B34 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 65F5E4392CDCB7B100D53B34;
+					};
+				};
+			};
+			buildConfigurationList = 65F5E4352CDCB7B100D53B34 /* Build configuration list for PBXProject "CryptoViper" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 65F5E4312CDCB7B100D53B34;
+			productRefGroup = 65F5E43B2CDCB7B100D53B34 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				65F5E4392CDCB7B100D53B34 /* CryptoViper */,
+				65F5E44F2CDCB7B300D53B34 /* CryptoViperTests */,
+				65F5E4592CDCB7B300D53B34 /* CryptoViperUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		65F5E4382CDCB7B100D53B34 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65F5E4472CDCB7B300D53B34 /* Assets.xcassets in Resources */,
+				65F5E44A2CDCB7B300D53B34 /* Base in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65F5E44E2CDCB7B300D53B34 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65F5E4582CDCB7B300D53B34 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		65F5E4362CDCB7B100D53B34 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65F5E4762CDCB9F900D53B34 /* Router.swift in Sources */,
+				65F5E4722CDCB9D800D53B34 /* Presenter.swift in Sources */,
+				65F5E46E2CDCB9B100D53B34 /* View.swift in Sources */,
+				65F5E4742CDCB9E900D53B34 /* Entity.swift in Sources */,
+				65F5E4702CDCB9C400D53B34 /* Interactor.swift in Sources */,
+				65F5E43E2CDCB7B100D53B34 /* AppDelegate.swift in Sources */,
+				65F5E4402CDCB7B100D53B34 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65F5E44C2CDCB7B300D53B34 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65F5E4552CDCB7B300D53B34 /* CryptoViperTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65F5E4562CDCB7B300D53B34 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65F5E4612CDCB7B300D53B34 /* CryptoViperUITestsLaunchTests.swift in Sources */,
+				65F5E45F2CDCB7B300D53B34 /* CryptoViperUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		65F5E4522CDCB7B300D53B34 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 65F5E4392CDCB7B100D53B34 /* CryptoViper */;
+			targetProxy = 65F5E4512CDCB7B300D53B34 /* PBXContainerItemProxy */;
+		};
+		65F5E45C2CDCB7B300D53B34 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 65F5E4392CDCB7B100D53B34 /* CryptoViper */;
+			targetProxy = 65F5E45B2CDCB7B300D53B34 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		65F5E4482CDCB7B300D53B34 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				65F5E4492CDCB7B300D53B34 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		65F5E4622CDCB7B300D53B34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		65F5E4632CDCB7B300D53B34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		65F5E4652CDCB7B300D53B34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CryptoViper/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.haticetasdemir.CryptoViper;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		65F5E4662CDCB7B300D53B34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CryptoViper/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.haticetasdemir.CryptoViper;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		65F5E4682CDCB7B300D53B34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.haticetasdemir.CryptoViperTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CryptoViper.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CryptoViper";
+			};
+			name = Debug;
+		};
+		65F5E4692CDCB7B300D53B34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.haticetasdemir.CryptoViperTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CryptoViper.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CryptoViper";
+			};
+			name = Release;
+		};
+		65F5E46B2CDCB7B300D53B34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.haticetasdemir.CryptoViperUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CryptoViper;
+			};
+			name = Debug;
+		};
+		65F5E46C2CDCB7B300D53B34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.haticetasdemir.CryptoViperUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CryptoViper;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		65F5E4352CDCB7B100D53B34 /* Build configuration list for PBXProject "CryptoViper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65F5E4622CDCB7B300D53B34 /* Debug */,
+				65F5E4632CDCB7B300D53B34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		65F5E4642CDCB7B300D53B34 /* Build configuration list for PBXNativeTarget "CryptoViper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65F5E4652CDCB7B300D53B34 /* Debug */,
+				65F5E4662CDCB7B300D53B34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		65F5E4672CDCB7B300D53B34 /* Build configuration list for PBXNativeTarget "CryptoViperTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65F5E4682CDCB7B300D53B34 /* Debug */,
+				65F5E4692CDCB7B300D53B34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		65F5E46A2CDCB7B300D53B34 /* Build configuration list for PBXNativeTarget "CryptoViperUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65F5E46B2CDCB7B300D53B34 /* Debug */,
+				65F5E46C2CDCB7B300D53B34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 65F5E4322CDCB7B100D53B34 /* Project object */;
+}
